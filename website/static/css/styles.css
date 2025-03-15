@@ -1,0 +1,11 @@
+
+.close {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Show the close button when hovering over the list item */
+.list-group-item:hover .close {
+    display: inline-block;
+}
